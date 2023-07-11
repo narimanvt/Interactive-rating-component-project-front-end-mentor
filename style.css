@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:ital,wght@0,700;1,400&display=swap');
+
+body {
+    font-family: Outfit;
+    size: 11px;
+    background-color:hsl(216, 12%, 8%);
+    color:hsl(217, 12%, 63%)
+}
+
+h1, h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+p{
+    font-weight: 300;
+    font-size:15px;
+}
+
+.main-box {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(212, 19%, 13%);
+    min-width: 375px;
+    max-width: 1440px;
+    width: 390px;
+    height: 390px;
+    border-radius:6%;
+}
+.inner-box img {
+    background-color: hsl(213, 19%, 18%);
+    padding:4.2%;
+    border-radius:50%;
+    margin-bottom:3%;
+}
+.inner-box {
+    margin-left: 4px;
+    padding:7%;
+    
+}
+.buttons {
+    margin-top:10%;
+    display:flex;
+    justify-content: space-between; 
+}
+.buttons button{
+    color:hsl(217, 12%, 63%);
+    background-color: hsl(212, 18%, 18%);
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    border:none;
+    cursor: pointer;
+    font-weight:600;
+}
+.buttons button:hover {
+    background-color: hsl(25, 97%, 53%);
+    transition:0.2s;
+    color:aliceblue;
+}
+
+.buttons button:focus {
+    background-color: hsla(217, 12%, 63%, 0.59);
+    color:aliceblue;
+}
+
+.submit-button {
+    position: absolute;
+    margin-top:7.5%;
+    
+}
+.submit-button button{
+    width:331.4px;
+    height:40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color:aliceblue;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.1rem
+}
+.submit-button button:hover {
+    background-color:aliceblue;
+    color:hsl(25, 97%, 53%);
+    transition:0.25s;
+}
+
+.hidden{
+    display:none;
+}
+
+.thanks {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(212, 19%, 13%);
+    min-width: 375px;
+    max-width: 1440px;
+    width: 390px;
+    height: 390px;
+    border-radius:6%;
+}
+.inner-thanks {
+   position:absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+}
+.inner-thanks #select {
+    padding: 5px 15px;
+    background-color:hsla(217, 12%, 63%, 0.215);
+    border-radius: 20px;
+    width: fit-content;
+    margin-left:22%;
+    color: hsla(25, 100%, 63%, 0.819);
+}
+.inner-thanks #appreciate {
+    font-size: 14px;
+}
